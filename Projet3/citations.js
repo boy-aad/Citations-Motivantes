@@ -40,6 +40,7 @@ newCitationButton.addEventListener("click", () => {
     derniereCitation = nombreAleatoire;
     citation.textContent = citations[nombreAleatoire][0];
     author.textContent = citations[nombreAleatoire][1];
+    derniereCitation = nombreAleatoire;
 })
 
 function  genererNombreEntier(max) {
